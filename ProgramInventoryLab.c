@@ -108,7 +108,7 @@ void addProd(){	// function to add products to the file
   		IDChecker(0,count); // to check if the id is already used.
 		}
 	else{
-		printf("\nNomor ID Barang: ");
+		printf("\nNomor ID barang: ");
 		fflush(stdin); 
 		gets(prod[count].id);
 		}
