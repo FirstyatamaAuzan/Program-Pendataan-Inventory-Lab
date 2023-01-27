@@ -81,7 +81,7 @@ for(i=0;i<count;i++){		//loop to finding the user's input
 	}
 }
 if(z==false){	// will be executed if the product id is not available.
-	printf("tidak dapat menemukan id barang: %s .",id);
+	printf("tidak dapat menemukan ID barang: %s .",id);
 }
 writefile();
 }
